@@ -21,7 +21,11 @@ jobs:
       with:
         #Tells Azure to target the storage account 'awiscoldfashionstatweb' and the container '$web' as the destination by using the service principal identity.
         inlineScript: |
-            az storage blob upload-batch --account-name awiscoldfashionstatweb --destination '$web' --source . --auth-mode login
+          az storage blob upload-batch \
+            --account-name awiscoldfashionstatweb \
+            --destination '$web' \
+            --source ./website \
+            --auth-mode login
 
     # Azure logout
     - name: logout
