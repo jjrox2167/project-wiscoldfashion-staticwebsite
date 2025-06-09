@@ -11,7 +11,7 @@ It is designed to showcase familiarity with:
 
 ## 📌 Purpose
 
-The primary goal of this project is to show potential employers that I understand modern DevOps workflows and cloud-native web hosting — even for simple static sites.
+The primary goal of this project is to help illistrate modern DevOps workflows and cloud-native web hosting — even for simple static sites. This project is free to have users, GitHub Community members, employees or employers review as a sample.
 
 This includes:
 - Writing Terraform to provision Azure resources
